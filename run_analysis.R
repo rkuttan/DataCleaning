@@ -1,7 +1,7 @@
 # Read the measurement names from the feattures.txt file
 readVariables <- function() {  
   featureList<-read.table("features.txt",sep=" ", 
-             col.names=c("id","Variable"))  
+                          col.names=c("id","Variable"))  
   featureList
 }
 
@@ -56,7 +56,12 @@ combineBothObservations <- function() {
   #Calculate the mean grouping by activity and subject
   aggregatedObs <- aggregate(combinedallobs[,1:(ncol(combinedallobs)-2)],by=list(combinedallobs$Activity,combinedallobs$Subject), FUN=mean,na.rm=TRUE)
   filterList<-filterVariables(featureList)
-  colnames(aggregatedObs)<-c("Activity","Subject",as.character(filterList$Variable))  
+  
+  #Remove the character () and replace - with _
+  measurements <- as.character(filterList$Variable)
+  measurements <- gsub("\\(\\)","",measurements)
+  measurements <- gsub("-","_",measurements)
+  colnames(aggregatedObs)<-c("Activity","Subject",measurements)  
   
   #Write the tidy data set to a csv file.
   write.table(aggregatedObs,"tidydata.csv",sep=",",row.names=FALSE)
