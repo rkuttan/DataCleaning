@@ -16,66 +16,95 @@ Every Activity that had values 1 to 6 in the original data set was transformed i
 #Variables
 Explanation of variables in the tidy dataset. All variables are classified into time domain variables beginning with 't' and frequency domain variables beginning with 'f'.
 
-**Variable name:** Activity
+**1. Variable name:** Activity
 
 **Description:** Descriptive name for the activity performed for the observations.
-This takes values of Walking, Walking Upstairs, Walking downstairs, Sitting, Standing, Laying.
 
-**Variable name:** Subject
-**Description:** A number to uniqely identify the subject that partcipated in the experiments.
-30 subjects were involved in the experiment and they are numbered from 1 to 30.
+**Values:** Values of Walking, Walking Upstairs, Walking downstairs, Sitting, Standing, Laying.
 
-**Variable name:** tBodyAcc_mean_X
+**2. Variable name:** Subject
+
+**Description:** A number to uniqely identify the subject that partcipated in the experiments. 30 subjects were involved in the experiment 
+
+**Values:** Numbers from 1 to 30.
+
+**3. Variable name:** tBodyAcc_mean_X
+
 **Description:** A time domain signal in the X direction to indicate the mean of the body acceleration.
+
 **Value:** Decimal that is the mean of the observations for a subject and activity combination.
 
-**Variable name:** tBodyAcc_mean_Y
+**4. Variable name:** tBodyAcc_mean_Y
+
 **Description:** A time domain signal in the Y direction to indicate the mean of the body acceleration.
+
 **Value:** Decimal that is the mean of the observations for a subject and activity combination.
 
-**Variable name:** tBodyAcc_mean_Z
+**5. Variable name:** tBodyAcc_mean_Z
+
 **Description:** A time domain signal in the Z direction to indicate the mean of the body acceleration.
+
 **Value:** Decimal that is the mean of the observations for a subject and activity combination.
 
-**Variable name:** tBodyAcc_std_X
+**6. Variable name:** tBodyAcc_std_X
+
 **Description:** A time domain signal in the X direction to indicate the standard deviation of the body acceleration.
+
 **Value:** Decimal that is the mean of the observations for a subject and activity combination.
 
-**Variable name:** tBodyAcc_std_Y
+**7. Variable name:** tBodyAcc_std_Y
+
 **Description:** A time domain signal in the Y direction to indicate the standard deviation of the body acceleration.
+
 **Value:** Decimal that is the mean of the observations for a subject and activity combination.
 
-**Variable name:** tBodyAcc_std_Z
+**8. Variable name:** tBodyAcc_std_Z
+
 **Description:** A time domain signal in the Z direction to indicate the standard deviation of the body acceleration.
+
 **Value:** Decimal that is the mean of the observations for a subject and activity combination.
 
-**Variable name:** tGravityAcc_mean_X
+**9. Variable name:** tGravityAcc_mean_X
+
 **Description:** A time domain signal in the X direction to indicate the mean of the gravity acceleration.
+
 **Value:** Decimal that is the mean of the observations for a subject and activity combination.
 
-**Variable name:** tGravityAcc_mean_Y
+**10. Variable name:** tGravityAcc_mean_Y
+
 **Description:** A time domain signal in the Y direction to indicate the mean of the gravity acceleration.
+
 **Value:** Decimal that is the mean of the observations for a subject and activity combination.
 
-**Variable name:** tGravityAcc_mean_Z
+**11. Variable name:** tGravityAcc_mean_Z
+
 **Description:** A time domain signal in the Z direction to indicate the mean of the gravity acceleration.
+
 **Value:** Decimal that is the mean of the observations for a subject and activity combination.
 
-**Variable name:** tGravityAcc_std_X
+**12. Variable name:** tGravityAcc_std_X
+
 **Description:** A time domain signal in the X direction to indicate the standard deviation of the gravity acceleration.
+
 **Value:** Decimal that is the mean of the observations for a subject and activity combination.
 
-**Variable name:** tGravityAcc_std_Y
+**13. Variable name:** tGravityAcc_std_Y
+
 **Description:** A time domain signal in the Y direction to indicate the standard deviation of the gravity acceleration.
+
 **Value:** Decimal that is the mean of the observations for a subject and activity combination.
 
-**Variable name:** tGravityAcc_std_Z
+**14. Variable name:** tGravityAcc_std_Z
+
 **Description:** A time domain signal in the Z direction to indicate the standard deviation of the gravity acceleration.
+
 **Value:** Decimal that is the mean of the observations for a subject and activity combination.
 
-Variable name: tBodyAccJerk_mean_X
-Description: A time domain signal in the X direction to indicate the mean of the body acceleration jerk.
-Value: Decimal that is the mean of the observations for a subject and activity combination.
+**15. Variable name: tBodyAccJerk_mean_X
+
+**Description:** A time domain signal in the X direction to indicate the mean of the body acceleration jerk.
+
+**Value:** Decimal that is the mean of the observations for a subject and activity combination.
 
 Variable name: tBodyAccJerk_mean_Y
 Description: A time domain signal in the Y direction to indicate the mean of the body acceleration jerk.
