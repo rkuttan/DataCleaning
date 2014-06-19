@@ -143,7 +143,7 @@ Explanation of variables in the tidy dataset. All variables are classified into 
 
 **Value:** Decimal that is the mean of the observations for a subject and activity combination.
 
-**22. Variable name: tBodyGyro_mean_Y
+**22. Variable name:** tBodyGyro_mean_Y
 
 **Description:** A time domain signal in the Y direction to indicate the mean of the body acceleration angular velocity .
 
@@ -155,7 +155,7 @@ Explanation of variables in the tidy dataset. All variables are classified into 
 
 **Value:** Decimal that is the mean of the observations for a subject and activity combination.
 
-**24. Variable name:**tBodyGyro_std_X
+**24. Variable name:** tBodyGyro_std_X
 
 **Description:** A time domain signal in the X direction to indicate the standard deviation of the body acceleration angular velocity . 
 
