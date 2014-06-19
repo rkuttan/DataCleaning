@@ -185,7 +185,7 @@ Explanation of variables in the tidy dataset. All variables are classified into 
 
 **Value:** Decimal that is the mean of the observations for a subject and activity combination.
 
-**Variable name:** tBodyGyroJerk_mean_Z
+**29. Variable name:** tBodyGyroJerk_mean_Z
 
 
 **Description:** A time domain signal in the Z direction to indicate the mean of the jerking body acceleration angular velocity .
@@ -193,246 +193,250 @@ Explanation of variables in the tidy dataset. All variables are classified into 
 **Value:** Decimal that is the mean of the observations for a subject and activity combination.
 
 
-**Variable name:** tBodyGyroJerk_std_X
+**30. Variable name:** tBodyGyroJerk_std_X
 
 **Description:** A time domain signal in the X direction to indicate the standard deviation of the jerking body acceleration angular velocity . 
 
 **Value:** Decimal that is the mean of the observations for a subject and activity combination.
 
 
-**Variable name:** tBodyGyroJerk_std_Y
+**31. Variable name:** tBodyGyroJerk_std_Y
 
 **Description:** A time domain signal in the Y direction to indicate the standard deviation of the jerking body acceleration angular velocity .
 
 **Value:** Decimal that is the mean of the observations for a subject and activity combination.
 
-**Variable name: tBodyGyroJerk_std_Z
+**32.Variable name: tBodyGyroJerk_std_Z
+
 **Description: A time domain signal in the Z direction to indicate the standard deviation of the jerking body acceleration angular velocity .
+
 **Value: Decimal that is the mean of the observations for a subject and activity combination.
 
-**Variable name: tBodyAccMag_mean
+**33. Variable name: tBodyAccMag_mean
+
 **Description: A time domain signal calculated using the Euclidean norm in to indicate the mean of the body acceleration.
+
 **Value: Decimal that is the mean of the observations for a subject and activity combination.
 
-**Variable name:** tBodyAccMag_std
+**34. Variable name:** tBodyAccMag_std
 
 **Description:** A time domain signal calculated using the Euclidean norm to indicate the mean of the body acceleration.
 
 **Value:** Decimal that is the mean of the observations for a subject and activity combination.
 
-**Variable name:** tGravityAccMag_mean
+**35. Variable name:** tGravityAccMag_mean
 
 **Description:** A time domain signal calculated using the Euclidean norm to indicate the mean of the gravity acceleration.
 
 **Value:** Decimal that is the mean of the observations for a subject and activity combination.
 
-**Variable name:** tGravityAccMag_std
+**36. Variable name:** tGravityAccMag_std
 
 **Description:** A time domain signal calculated using the Euclidean norm to indicate the standard deviation of the gravity acceleration.
 
 **Value:** Decimal that is the mean of the observations for a subject and activity combination.
 
-**Variable name:** tBodyAccJerkMag_mean
+**37. Variable name:** tBodyAccJerkMag_mean
 
 **Description:** A time domain signal calculated using the Euclidean norm to indicate the mean of the body cceleration jerk.
 
 **Value:** Decimal that is the mean of the observations for a subject and activity combination.
 
-**Variable name:** tBodyAccJerkMag_std
+**38. Variable name:** tBodyAccJerkMag_std
 
 **Description:** A time domain signal calculated using the Euclidean norm to indicate the standard deviation of the body acceleration jerk.
 
 **Value:** Decimal that is the mean of the observations for a subject and activity combination.
 
-**Variable name:** tBodyGyroMag_mean
+**39. Variable name:** tBodyGyroMag_mean
 
 **Description:** A time domain signal calculated using the Euclidean norm to indicate the mean of the body angular velocity.
 
 **Value:** Decimal that is the mean of the observations for a subject and activity combination.
 
-**Variable name:** tBodyGyroMag_std
+**40. Variable name:** tBodyGyroMag_std
 
 **Description:** A time domain signal calculated using the Euclidean norm to indicate the standard deviation of the body angular velocity.
 
 **Value:** Decimal that is the mean of the observations for a subject and activity combination.
 
-**Variable name:** tBodyGyroJerkMag_mean
+**41. Variable name:** tBodyGyroJerkMag_mean
 
 **Description:** A time domain signal calculated using the Euclidean norm to indicate the mean of the body jerking angular velocity.
 
 **Value:** Decimal that is the mean of the observations for a subject and activity combination.
 
-**Variable name:** tBodyGyroJerkMag_std
+**42. Variable name:** tBodyGyroJerkMag_std
 
 **Description:** A time domain signal calculated using the Euclidean norm to indicate the standard deviation of the body jerking angular velocity.
 
 **Value:** Decimal that is the mean of the observations for a subject and activity combination.
 
-**Variable name:** fBodyAcc_mean_X
+**43. Variable name:** fBodyAcc_mean_X
 
 **Description:** A frequency domain signal in the X direction to indicate the mean of the body acceleration.
 
 **Value:** Decimal that is the mean of the observations for a subject and activity combination.
 
-**Variable name:** fBodyAcc_mean_Y
+**44. Variable name:** fBodyAcc_mean_Y
 
 **Description:** A frequency domain signal in the Y direction to indicate the mean of the body acceleration.
 
 **Value:** Decimal that is the mean of the observations for a subject and activity combination.
 
-**Variable name:** fBodyAcc_mean_Z
+**45. Variable name:** fBodyAcc_mean_Z
 
 **Description:** A frequency domain signal in the Z direction to indicate the mean of the body acceleration.
 
 **Value:** Decimal that is the mean of the observations for a subject and activity combination.
 
-**Variable name:** fBodyAcc_std_X
+**46. Variable name:** fBodyAcc_std_X
 
 **Description:** A frequency domain signal in the X direction to indicate the standard deviation
 of the body acceleration.
 
 **Value:** Decimal that is the mean of the observations for a subject and activity combination.
 
-**Variable name:** fBodyAcc_std_Y
+**47. Variable name:** fBodyAcc_std_Y
 
 **Description:** A frequency domain signal in the Y direction to indicate the standard deviation
 of the body acceleration.
 
 **Value:** Decimal that is the mean of the observations for a subject and activity combination.
 
-**Variable name:** fBodyAcc_std_Z
+**48. Variable name:** fBodyAcc_std_Z
 
 **Description:** A frequency domain signal in the Z direction to indicate the standard deviation of the body acceleration.
 
 **Value:** Decimal that is the mean of the observations for a subject and activity combination.
 
-**Variable name:** fBodyAccJerk_mean_X
+**49. Variable name:** fBodyAccJerk_mean_X
 
 **Description:** A frequency domain signal in the X direction to indicate the mean of the body acceleration jerk.
 
 **Value:** Decimal that is the mean of the observations for a subject and activity combination.
 
-**Variable name:** fBodyAccJerk_mean_Y
+**50. Variable name:** fBodyAccJerk_mean_Y
 
 **Description:** A frequency domain signal in the Y direction to indicate the mean of the body acceleration jerk.
 
 **Value:** Decimal that is the mean of the observations for a subject and activity combination.
 
-**Variable name:** fBodyAccJerk_mean_Z
+**51. Variable name:** fBodyAccJerk_mean_Z
 
 **Description:** A frequency domain signal in the Z direction to indicate the mean of the body acceleration jerk.
 
 **Value:** Decimal that is the mean of the observations for a subject and activity combination.
 
-**Variable name:** fBodyAccJerk_std_X
+**52. Variable name:** fBodyAccJerk_std_X
 
 **Description:** A frequency domain signal in the X direction to indicate the standard deviation of the body acceleration jerk.
 
 **Value:** Decimal that is the mean of the observations for a subject and activity combination.
 
-**Variable name:** fBodyAccJerk_std_Y
+**53. Variable name:** fBodyAccJerk_std_Y
 
 **Description:** A frequency domain signal in the Y direction to indicate the standard deviation of the body acceleration jerk.
 
 **Value:** Decimal that is the mean of the observations for a subject and activity combination.
 
-**Variable name:** fBodyAccJerk_std_Z
+**54. Variable name:** fBodyAccJerk_std_Z
 
 **Description:** A frequency domain signal in the Z direction to indicate the standard deviation of the body acceleration jerk.
 
 **Value:** Decimal that is the mean of the observations for a subject and activity combination.
 
-**Variable name:** fBodyGyro_mean_X
+**55. Variable name:** fBodyGyro_mean_X
 
 **Description:** A frequency domain signal in the X direction to indicate the mean of the body acceleration angular velocity . 
 
 **Value:** Decimal that is the mean of the observations for a subject and activity combination.
 
-**Variable name:** fBodyGyro_mean_Y
+**56. Variable name:** fBodyGyro_mean_Y
 
 **Description:** A frequency domain signal in the Y direction to indicate the mean of the body acceleration angular velocity .
 
 **Value:** Decimal that is the mean of the observations for a subject and activity combination.
 
-**Variable name:** fBodyGyro_mean_Z
+**57. Variable name:** fBodyGyro_mean_Z
 
 **Description:** A frequency domain signal in the Z direction to indicate the mean of the body acceleration angular velocity .
 
 **Value:** Decimal that is the mean of the observations for a subject and activity combination.
 
-**Variable name:** fBodyGyro_std_X
+**58. Variable name:** fBodyGyro_std_X
 
 **Description:** A frequency domain signal in the X direction to indicate the standard deviation of the body acceleration angular velocity . 
 
 **Value:** Decimal that is the mean of the observations for a subject and activity combination.
 
-**Variable name:** fBodyGyro_std_Y
+**59. Variable name:** fBodyGyro_std_Y
 
 **Description:** A frequency domain signal in the Y direction to indicate the standard deviation of the body acceleration angular velocity .
 
 **Value:** Decimal that is the mean of the observations for a subject and activity combination.
 
-**Variable name:** fBodyGyro_std_Z
+**60. Variable name:** fBodyGyro_std_Z
 
 **Description:** A frequency domain signal in the Z direction to indicate the standard deviation of the body acceleration angular velocity .
 
 **Value:** Decimal that is the mean of the observations for a subject and activity combination. 
 
-**Variable name:** fBodyAccMag_mean
+**61. Variable name:** fBodyAccMag_mean
 
 **Description:** A frequency domain signal calculated using the Euclidean norm in to indicate the mean of the body acceleration.
 
 **Value:** Decimal that is the mean of the observations for a subject and activity combination.
 
-**Variable name:** fBodyAccMag_std
+**62. Variable name:** fBodyAccMag_std
 
 **Description:** A frequency domain signal calculated using the Euclidean norm to indicate the mean of the body acceleration.
 
 **Value:** Decimal that is the mean of the observations for a subject and activity combination.
 
-**Variable name:** fGravityAccMag_mean
+**63. Variable name:** fGravityAccMag_mean
 
 **Description:** A frequency domain signal calculated using the Euclidean norm to indicate the mean of the gravity acceleration.
 
 **Value:** Decimal that is the mean of the observations for a subject and activity combination.
 
-**Variable name:** fGravityAccMag_std
+**64. Variable name:** fGravityAccMag_std
 
 **Description:** A frequency domain signal calculated using the Euclidean norm to indicate the standard deviation of the gravity acceleration.
 
 **Value:** Decimal that is the mean of the observations for a subject and activity combination.
 
-**Variable name:** fBodyAccJerkMag_mean
+**65. Variable name:** fBodyAccJerkMag_mean
 
 **Description:** A frequency domain signal calculated using the Euclidean norm to indicate the mean of the body cceleration jerk.
 
 **Value:** Decimal that is the mean of the observations for a subject and activity combination.
 
-**Variable name:** fBodyAccJerkMag_std
+**66. Variable name:** fBodyAccJerkMag_std
 
 **Description:** A frequency domain signal calculated using the Euclidean norm to indicate the standard deviation of the body acceleration jerk.
 
 **Value:** Decimal that is the mean of the observations for a subject and activity combination.
 
-**Variable name:** fBodyGyroMag_mean
+**67. Variable name:** fBodyGyroMag_mean
 
 **Description:** A frequency domain signal calculated using the Euclidean norm to indicate the mean of the body angular velocity.
 
 **Value:** Decimal that is the mean of the observations for a subject and activity combination.
 
-**Variable name:** fBodyGyroMag_std
+**68. Variable name:** fBodyGyroMag_std
 
 **Description:** A frequency domain signal calculated using the Euclidean norm to indicate the standard deviation of the body angular velocity.
 
 **Value:** Decimal that is the mean of the observations for a subject and activity combination.
 
-**Variable name:** fBodyGyroJerkMag_mean
+**69. Variable name:** fBodyGyroJerkMag_mean
 
 **Description:** A frequency domain signal calculated using the Euclidean norm to indicate the mean of the body jerking angular velocity.
 
 **Value:** Decimal that is the mean of the observations for a subject and activity combination.
 
-**Variable name:** fBodyGyroJerkMag_std
+**70. Variable name:** fBodyGyroJerkMag_std
 
 **Description:** A frequency domain signal calculated using the Euclidean norm to indicate the standard deviation of the body jerking angular velocity.
 
