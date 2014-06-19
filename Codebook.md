@@ -1,11 +1,11 @@
-Data used:
+#Data used
 The data sets that were used in this sample were taken from 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 After unzipping the contents, the data is in the below directory
 a. Test data inside the test directory. X_test.txt, X_train.txt, subject_test.txt contain the measurements for the observations
 b. Training data inside the train directory. y_test.txt,y_train.txt, subject_train.txt contain the activities performed for each of the observations.
 
-Data transformations:
+#Data transformations
 Data from X_test.txt,y_test.txt and subject_text.txt were read in using the script as dataframes. They were all combined into a single data set.
 Similarly data was combined for all the training data sets.
 After that, both the test and training data frames were combined into one single data frame.
@@ -13,12 +13,12 @@ An aggregate grouped by activity and subject was performed on the single data fr
 Every Activity that had values 1 to 6 in the original data set was transformed into corresponding descriptive names like Walking, Wlking Upstairs etc. These descriptive names were taken from activity_labels.txt
 
 
-
+#Variables
 Explanation of variables in the tidy dataset. All variables are classified into time domain variables beginning with 't' and frequency domain variables beginning with 'f'.
 
-Variable name: Activity
-Description: Descriptive name for the activity performed for the observations.
-This takes values of Walking, Walking Upstairs, Walking downstairs, Sitting, Standing, Laying.
+######Variable name: Activity
+######Description: Descriptive name for the activity performed for the observations.
+Allowed values for Activity are Walking, Walking Upstairs, Walking downstairs, Sitting, Standing, Laying.
 
 Variable name: Subject
 Description: A number to uniqely identify the subject that partcipated in the experiments.
