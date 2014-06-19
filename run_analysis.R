@@ -63,6 +63,6 @@ combineBothObservations <- function() {
   measurements <- gsub("-","_",measurements)
   colnames(aggregatedObs)<-c("Activity","Subject",measurements)  
   
-  #Write the tidy data set to a csv file.
-  write.table(aggregatedObs,"tidydata.csv",sep=",",row.names=FALSE)
+  #Write the tidy data set to a txt file.
+  write.table(aggregatedObs,"tidydata.txt",sep=" ",row.names=FALSE)
 }
