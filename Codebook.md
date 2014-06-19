@@ -206,17 +206,17 @@ Explanation of variables in the tidy dataset. All variables are classified into 
 
 **Value:** Decimal that is the mean of the observations for a subject and activity combination.
 
-**32.Variable name: tBodyGyroJerk_std_Z
+**32.Variable name:** tBodyGyroJerk_std_Z
 
-**Description: A time domain signal in the Z direction to indicate the standard deviation of the jerking body acceleration angular velocity .
+**Description:** A time domain signal in the Z direction to indicate the standard deviation of the jerking body acceleration angular velocity .
 
-**Value: Decimal that is the mean of the observations for a subject and activity combination.
+**Value:** Decimal that is the mean of the observations for a subject and activity combination.
 
-**33. Variable name: tBodyAccMag_mean
+**33. Variable name:** tBodyAccMag_mean
 
-**Description: A time domain signal calculated using the Euclidean norm in to indicate the mean of the body acceleration.
+**Description:** A time domain signal calculated using the Euclidean norm in to indicate the mean of the body acceleration.
 
-**Value: Decimal that is the mean of the observations for a subject and activity combination.
+**Value:** Decimal that is the mean of the observations for a subject and activity combination.
 
 **34. Variable name:** tBodyAccMag_std
 
