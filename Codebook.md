@@ -17,6 +17,7 @@ Every Activity that had values 1 to 6 in the original data set was transformed i
 Explanation of variables in the tidy dataset. All variables are classified into time domain variables beginning with 't' and frequency domain variables beginning with 'f'.
 
 **Variable name:** Activity
+
 **Description:** Descriptive name for the activity performed for the observations.
 This takes values of Walking, Walking Upstairs, Walking downstairs, Sitting, Standing, Laying.
 
