@@ -19,10 +19,10 @@ This function does the following
 a. Calls readVariables function and stores a list of filtered variable names
 b. Calls combineObservation twice by passing parameters test and train as observationtype in each call.
 c. The 2 dataframes obtained from the results of combineObservation are combined using rbind.
-d. Using the aggregate function, an mean grouped by each subject and activity are obtained for all the filtered variables.
+d. Using the aggregate function, a mean grouped by each subject and activity are obtained for all the filtered variables.
 
 ##Tidy data
-The result obtained above is a tiday data set that contains 180 observations (30 subjects and 6 activities) for 68 variables. Each observation for a subject represents the mean of all variables for each of the 6 activities. The data is stored in a file called tidydata.txt. Every value is separated by a whitespace and each observation begins on a new line. The contents of tidydata.txt can be read into a dataframe using the read.table() function.
+The result obtained above is a tiday data set that contains 180 observations (30 subjects and 6 activities) for 68 variables. Each observation for a subject represents the mean of all variables for each of the 6 activities. The data is written to a file called tidydata.txt. Every value is separated by a whitespace and each observation begins on a new line. The contents of tidydata.txt can be read into a dataframe using the read.table() function.
 
 ##Codebook
 The codebook.md details out the various transformations that took place on the data to reach the tidydata form. All the measurements are explained in detail in the codebook.
