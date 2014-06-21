@@ -41,7 +41,7 @@ combineObservation <- function(observationtype, measurement) {
 
 #Combines observations from the test and training into a single data frame
 # and aggregates it by activity and subject
-combineBothObservations <- function() {
+runAnalysis <- function() {
   #Read all the measurements
   featureList<-readVariables()
   
